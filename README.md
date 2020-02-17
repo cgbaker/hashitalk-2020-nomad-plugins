@@ -1,7 +1,7 @@
 HashiTalk 2020 Demo
 ==========
 
-Nomad Python Driver and USB Device Driver
+Nomad Python Driver and USB Device Plugins
 -------------------
 
 Created for demo purposes for [HashiTalks 2020](https://events.hashicorp.com/hashitalks2020).

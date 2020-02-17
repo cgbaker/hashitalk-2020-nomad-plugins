@@ -36,12 +36,10 @@ EOF
         data = <<EOF
           <html>
           <h1>HashiTalks 2020: Extending Nomad with Plugins</h1>
-          <p>Demo projects: 
+          <p> Source code
           <ul>
-          <li><a href="https://github.com/cgbaker/hashitalk-nomad-python-driver">Python Task Driver Plugin</a>
-          <li><a href="https://github.com/cgbaker/hashitalk-device-plugin">Demo Device Driver Plugin</a>
-          <ul>
-          </div>
+          <li><a href="https://github.com/cgbaker/hashitalk-2020-nomad-plugins">https://github.com/cgbaker/hashitalk-2020-nomad-plugins</a>
+          </ul>
           </html>
 EOF
       }
