@@ -29,4 +29,5 @@ func (d *SkeletonDevicePlugin) doStats(ctx context.Context, stats chan<- *device
 // writeStatsToChannel collects device stats, partitions devices into
 // device groups, and sends the data over the provided channel.
 func (d *SkeletonDevicePlugin) writeStatsToChannel(stats chan<- *device.StatsResponse, timestamp time.Time) {
+	stats <- &device.StatsResponse{}
 }
