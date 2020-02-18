@@ -1,7 +1,7 @@
-job "demo" {
+job "python-demo" {
   datacenters = ["dc1"]
   type = "service"
-  group "demo" {
+  group "server" {
     task "python-server" {
 
       driver = "python"
