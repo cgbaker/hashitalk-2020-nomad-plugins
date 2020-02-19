@@ -45,6 +45,7 @@ you can try them out by starting a Nomad agent using the included config and job
 $ nomad agent -dev -plugin-dir=$(PWD)/plugins -config=example/nomad.hcl
 
 # in another shell
-$ nomad run ./example/demo.hcl
+$ nomad run ./example/device-demo.hcl
+$ nomad run ./example/python-demo.hcl
 ```
 
